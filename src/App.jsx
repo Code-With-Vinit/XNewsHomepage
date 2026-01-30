@@ -30,7 +30,7 @@ function App() {
 
             <div>
               <div className="main-text">
-
+                console.log("debugging");
 
               </div>
               <div>
