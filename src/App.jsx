@@ -27,7 +27,7 @@ function App() {
             <div className="hero-img">
               <img src={hero} alt="hero_img" />
             </div>
-            
+            console.log("Debugging");
             <div>
               <div className="main-text">
   
