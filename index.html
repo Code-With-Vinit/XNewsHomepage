@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="logo.svg" alt="Logo" class="logo">
+        
+        <div id="menu-button" class="menu-button">
+            <button aria-label="Open menu">
+                <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#00001A" fill-rule="evenodd">
+                        <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/>
+                    </g>
+                </svg>
+            </button>
+        </div>
+
+        <nav>
+            <div id="menu-close" class="menu-close">
+                <button aria-label="Close menu">
+                    <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="#00001A" fill-rule="evenodd">
+                            <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/>
+                            <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#categories">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-img">
+                <img src="image-web-3-desktop.jpg" alt="Web 3.0" class="desktop-img">
+                <img src="image-web-3-mobile.jpg" alt="Web 3.0" class="mobile-img">
+            </div>
+            <div class="hero-content">
+                <h1 class="main-text">The Bright Future of Web 3.0?</h1>
+                <div class="hero-description">
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Block - New News -->
+        <aside class="right-block">
+            <h2>New</h2>
+            <div class="news1">
+                <h3>Hydrogen VS Electric Cars</h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <hr>
+            <div class="news2">
+                <h3>The Downsides of AI Artistry</h3>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <hr>
+            <div class="news3">
+                <h3>Is VC Funding Drying Up?</h3>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+        </aside>
+
+        <!-- News Cards Section -->
+        <section class="second-section">
+            <article class="card">
+                <img src="image-retro-pcs.jpg" alt="Retro PCs">
+                <div class="card-content">
+                    <span class="card-number">01</span>
+                    <h3>Reviving Retro PCs</h3>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="image-top-laptops.jpg" alt="Top Laptops">
+                <div class="card-content">
+                    <span class="card-number">02</span>
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="image-gaming-growth.jpg" alt="Gaming Growth">
+                <div class="card-content">
+                    <span class="card-number">03</span>
+                    <h3>The Growth of Gaming</h3>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Challenge by <a href="https://crio.do" target="_blank">Crio.Do</a>. 
+            Coded by <a href="https://github.com/Code-With-Vinit" target="_blank">Vinit</a>.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
